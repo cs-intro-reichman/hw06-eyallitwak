@@ -2,7 +2,7 @@ import java.awt.Color;
 
 /**
  * Demonstrates the morphing operation featured by Runigram.java. 
- * The program recieves three command-line arguments: a string representing the name
+ * The program receives three command-line arguments: a string representing the name
  * of the PPM file of a source image, a string representing the name of the PPM file
  * of a target image, and the number of morphing steps (an int). 
  * For example, to morph the cake into ironman in 50 steps, use:

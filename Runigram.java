@@ -193,7 +193,8 @@ public class Runigram {
 		}
 
 		for (int i = 0; i <= n; i++) {
-			morphedImage = blend(source, target, (double) ((n - i) / n));
+			double alpha = (double) (n - i) / n;
+			morphedImage = blend(source, target, alpha);
 			display(morphedImage);
 			StdDraw.pause(500);
 		}
